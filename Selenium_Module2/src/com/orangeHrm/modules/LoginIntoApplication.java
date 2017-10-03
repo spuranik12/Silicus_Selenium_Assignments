@@ -1,9 +1,11 @@
 package com.orangeHrm.modules;
 
 import org.openqa.selenium.By;
+import org.testng.annotations.Test;
 
 public class LoginIntoApplication 
 {
+	@Test
 	public void userLogin()
 	{
 		//user name
